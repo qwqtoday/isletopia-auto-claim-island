@@ -1,0 +1,14 @@
+{
+  "name": "isletopia-auto-claim-island",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "add-account": "node scripts/add-account.js",
+    "claim-islands": "node scripts/claim-islands.js"
+  },
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "mineflayer": "^4.19.0",
+    "yargs": "^17.7.2"
+  }
+}
